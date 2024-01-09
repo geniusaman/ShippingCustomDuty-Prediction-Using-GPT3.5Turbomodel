@@ -44,10 +44,3 @@ def preprocess_data(file_path):
 
     return X, y
 
-
-file_path = input("Enter file path: ")
-X_data, y_data = preprocess_data(file_path)
-print("X variable:")
-print(X_data)
-print("\ny variable:")
-print(y_data)
